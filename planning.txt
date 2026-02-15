@@ -1,0 +1,105 @@
+*CMS PAGES*
+
+HOMEPAGE FIELDS
+
+*Banner*
+Banners -- multi image select
+
+*About*
+Title -- Input
+Description -- Text Editor
+Image -- single image
+
+*Courses*
+Make Featured Course Dynamic
+
+*About2*
+Title 2 -- Input
+Description 2 -- Text Editor
+
+*Our Achievements*
+Title & Counts -- Input Add More
+
+*Mission*
+Title -- Input
+Description -- Text Editor
+Image -- single image
+
+
+*Awards & Achivements*
+Title & Image -- Input & Image Add More
+
+*Footer*
+Video -- Input
+Image -- Single Image
+
+*Why*
+Title & Image -- Input & Image Add More
+
+-----------------------------------------------
+
+ABOUTPAGE FIELDS
+
+*Breadcrumb*
+Image -- single image 
+
+*About*
+Title -- Input
+Description -- Text Editor
+Image -- single image
+
+*Courses*
+Make Featured Course Dynamic
+
+*Awards & Achivements*
+Title & Image -- Input & Image Add More
+
+*Why*
+Title & Image -- Input & Image Add More
+
+-----------------------------------------------
+
+COURSEPAGE FIELDS
+directly dynamic from course table
+
+-----------------------------------------------
+
+FACULTIES FIELDS
+Title -- Input
+Description -- Text Editor
+Name, Designation, Profile Picture -- Input & Image Add More
+
+-----------------------------------------------
+
+TESTIMONIALS FIELDS
+Image -- Image Add More
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+INSERT INTO `course_categories` (`id`, `name`, `image`, `is_active`, `created_at`, `updated_at`) VALUES ('1', 'Uncategorized', NULL, '1', NULL, NULL);
+
+UPDATE courses 
+SET category_id = 1 
+WHERE category_id = 0;
+
+UPDATE course_materials cm
+JOIN courses c ON cm.course_id = c.id
+SET cm.category_id = c.category_id;
+
+UPDATE course_materials
+SET title = NULL;
+
+DELETE FROM course_materials
+WHERE course_id NOT IN (SELECT id FROM courses);
+
+DELETE ce
+FROM course_enrolments ce
+LEFT JOIN users u ON ce.user_id = u.id
+LEFT JOIN courses c ON ce.course_id = c.id
+WHERE u.id IS NULL
+   OR c.id IS NULL;
+
+
+------------------------
+When upload images material
+UPDATE `tblcoursematerials` SET `cm_status`=0

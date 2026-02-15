@@ -1,0 +1,48 @@
+label.error {
+    color: red;
+    font-size: 12px;
+}
+
+.btn-xs {
+    padding: 0.1rem 0.4rem;
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+}
+
+/* Dashboard Card Styling */
+.dashboard-icon {
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-icon i {
+    color: #fff !important;
+}
+
+.dashboard-card-heading {
+    font-size: 15px !important;
+}
+
+.dashboard-count {
+    font-size: 2.25rem !important;
+    font-weight: normal !important;
+}
+
+/* Course Enrolments Modal - Scrollable Courses Container */
+#courses-container {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+
+/* Ensure modal body can scroll if content is too long */
+#smallModal .modal-body {
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
