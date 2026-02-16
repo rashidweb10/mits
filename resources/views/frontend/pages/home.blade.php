@@ -296,7 +296,7 @@
    <div class="bgcolor pb-4 pt-4 pb-md-5 pt-md-5">
       <div class="container">
          <div class="text-start mb-md-4 mb-2 pt-2">
-            <h3 class="robot_slab text_color text-center">Why MarinArch</h3>
+            <h3 class="robot_slab text_color text-center">Why MITS </h3>
          </div>
          <div class="row">
 

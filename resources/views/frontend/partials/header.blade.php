@@ -10,7 +10,7 @@
 
                 <div class="col-md-4">
                     <p class="mrg_35 robot_slab">
-                        All Admission on Counselling Call: {{get_setting('phone')}}
+                    Maptek Institute of Technology and Skills
                     </p>
                 </div>
 
@@ -93,8 +93,8 @@
                             <img
                                 class="w-150"
                                 src="{{ uploaded_asset(get_setting('logo')) }}"
-                                title="MarinArch Logo"
-                                alt="MarinArch Logo"
+                                title="MITS  Logo"
+                                alt="MITS  Logo"
                             />
                         </a>
                     </div>
@@ -177,14 +177,14 @@
                                         </a>
                                     </li>
 
-                                    <!-- Marinarch Menu -->
+                                    <!-- MITS  Menu -->
                                     <li class="nav-item menu {{ request()->is('about-us') ? 'active' : '' }}">
                                         <a href="/about-us" class="nav-link robot_slab">
-                                        Marinarch
+                                        Workshops 
                                         </a>
                                     </li>
 
-                                    <li class="nav-item menu {{ request()->routeIs('courses') ? 'active' : '' }}">
+                                    <!-- <li class="nav-item menu {{ request()->routeIs('courses') ? 'active' : '' }}">
                                         <a href="#" class="nav-link robot_slab">
                                         Courses
                                         </a>
@@ -205,12 +205,12 @@
                                                 
                                               
                                         </ul>
-                                    </li>
+                                    </li> -->
 
                                    
 
                                     <!-- Faculties Menu -->
-                                    <li class="nav-item menu {{ request()->routeIs('faculties') ? 'active' : '' }}">
+                                    <!-- <li class="nav-item menu {{ request()->routeIs('faculties') ? 'active' : '' }}">
                                         <a href="#" class="nav-link robot_slab">
                                             Faculties
                                         </a>
@@ -257,17 +257,23 @@
                                                   </a>
                                                 </li>
                                         </ul>
-                                    </li>
+                                    </li> -->
 
                                     <li class="nav-item {{ request()->routeIs('testimonials') ? 'active' : '' }}">
                                         <a class="nav-link robot_slab" href="{{ route('testimonials') }}">
-                                        Students Review
+                                        Why MITS
                                         </a>
                                     </li>
 
                                     <li class="nav-item {{ request()->routeIs('blog.index') ? 'active' : '' }}">
                                         <a class="nav-link robot_slab" href="{{ route('blog.index') }}">
-                                            Blogs
+                                        About MITS
+                                        </a>
+                                    </li>
+                                  
+                                    <li class="nav-item {{ request()->routeIs('blog.index') ? 'active' : '' }}">
+                                        <a class="nav-link robot_slab" href="{{ route('blog.index') }}">
+                                        FAQ 
                                         </a>
                                     </li>
 
@@ -303,14 +309,14 @@
                         </a>
                     </li>
 
-                    <!-- Marinarch Menu -->
+                    <!-- MITS  Menu -->
                     <li class="nav-item menu {{ request()->is('about-us') ? 'active' : '' }}">
                         <a href="/about-us" class="nav-link robot_slab">
-                        Marinarch
+                        Workshops  
                         </a>
                     </li>
 
-                    <li class="nav-item menu {{ request()->routeIs('courses') ? 'active' : '' }}">
+                    <!-- <li class="nav-item menu {{ request()->routeIs('courses') ? 'active' : '' }}">
                         <a href="#" class="nav-link robot_slab d-flex justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#coursesSubmenu" aria-expanded="false">
                             <span>Courses</span>
                             <i class="fas fa-chevron-down ms-2"></i>
@@ -327,10 +333,10 @@
                                 </a>
                             </li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     <!-- Faculties Menu -->
-                    <li class="nav-item menu {{ request()->routeIs('faculties') ? 'active' : '' }}">
+                    <!-- <li class="nav-item menu {{ request()->routeIs('faculties') ? 'active' : '' }}">
                         <a href="#" class="nav-link robot_slab d-flex justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#facultiesSubmenu" aria-expanded="false">
                             <span>Faculties</span>
                             <i class="fas fa-chevron-down ms-2"></i>
@@ -372,17 +378,22 @@
                                 </a>
                             </li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     <li class="nav-item {{ request()->routeIs('testimonials') ? 'active' : '' }}">
                         <a class="nav-link robot_slab" href="{{ route('testimonials') }}">
-                            Students Review
+                        Why MITS
                         </a>
                     </li>
 
                     <li class="nav-item {{ request()->routeIs('blog.index') ? 'active' : '' }}">
                         <a class="nav-link robot_slab" href="{{ route('blog.index') }}">
-                            Blogs
+                        About MITS
+                        </a>
+                    </li>
+                    <li class="nav-item {{ request()->routeIs('blog.index') ? 'active' : '' }}">
+                        <a class="nav-link robot_slab" href="{{ route('blog.index') }}">
+                        FAQ 
                         </a>
                     </li>
 

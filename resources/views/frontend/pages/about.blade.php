@@ -66,7 +66,7 @@
    <div class="container">
       <div class="row g-4">
       <div class="text-start mb-md-2 mb-0 pt-2">
-            <h3 class="robot_slab text_color text-center">Why MarinArch</h3>
+            <h3 class="robot_slab text_color text-center">Why MITS </h3>
          </div>
          
          @foreach($quicklinks['itration'] as $index => $itration) 

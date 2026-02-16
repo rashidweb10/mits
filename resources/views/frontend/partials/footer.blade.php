@@ -4,7 +4,7 @@
          <div class="col-md-2">
             <div class="footer_logo">
                <a href="/">
-               <img title="MarinArch" class="w-100" src="{{ uploaded_asset(get_setting('logo')) }}">
+               <img title="MITS " class="w-100" src="{{ uploaded_asset(get_setting('logo')) }}">
                </a>
             </div>
          </div>
@@ -18,20 +18,18 @@
                            <a href="{{ route('home') }}">Home </a>
                         </li>
                         <li class="footer-nav-item">
-                           <a href="{{ route('about') }}">Marine Arch</a>
+                           <a href="{{ route('about') }}">Workshops </a>
                         </li>
                         <li class="footer-nav-item">
-                           <a href="{{ route('courses') }}">Courses</a>
+                           <a href="{{ route('courses') }}">Why MITS</a>
                         </li>
                         <li class="footer-nav-item">
-                           <a href="{{ route('faculties') }}">Faculties</a>
+                           <a href="{{ route('faculties') }}">About MITS</a>
                         </li>
                         <li class="footer-nav-item">
-                           <a href="{{ route('testimonials') }}">Students Review</a>
+                           <a href="{{ route('testimonials') }}">FAQ </a>
                         </li>
-                        <li class="footer-nav-item">
-                           <a href="{{ route('blog.index') }}">Blogs</a>
-                        </li>                        
+                                            
                         <li class="footer-nav-item">
                            <a href="{{ route('contact') }}">Contact Us</a>
                         </li>
@@ -65,7 +63,7 @@
          </div>
          <div class="col-md-2"></div>
          <div class="col-md-7">
-            <p class="footer-copyright mb-0">© {{date("Y")}} Marinarch Online Academy. All Rights Reserved.</p>
+            <p class="footer-copyright mb-0">© {{date("Y")}} MITS Online Academy. All Rights Reserved.</p>
          </div>
          <div class="col-md-3 text-end">
             <p class="footer-copyright mb-0 copyrighr2 text-md-end text-center">Powered by <a href="{{config('custom.author_url')}}" target="_blank" style="font-weight:bold">Maptek</a>
@@ -77,7 +75,7 @@
 
 
 <div class="whatsapp">
-     <a href="https://api.whatsapp.com/send?phone=+919920062295" target="_blank" title="Contact Us">
+     <a href="https://api.whatsapp.com/send?phone=+7304496166" target="_blank" title="Contact Us">
          <img class="hvr-bounce-in" src="{{ asset('assets/frontend/img/whatsap.png') }}" style="width: 46px;" title="Contact Us">
      </a>
  </div>
