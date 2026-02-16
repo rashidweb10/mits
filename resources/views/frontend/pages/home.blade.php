@@ -113,7 +113,7 @@
       <div class="row g-4 align-items-center">
          <!-- Offline Course - First -->
         <!-- Online Course - Last -->
-        @if($onlineCategory)
+        <!-- @if($onlineCategory)
          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
             <a href="{{ route('courses') }}#online-course" class="text-decoration-none">
                <div class="enroll-image-box position-relative">
@@ -124,7 +124,20 @@
                </div>
             </a>
          </div>
-         @endif
+         @endif -->
+
+         
+         <div class="col-md-8" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+            <a href="" class="text-decoration-none">
+               <div class="enroll-image-box position-relative">
+                  <img class="w-100 hvr-bounce-in" src="/assets/frontend/img/b1.jpeg" alt="">
+                 
+               </div>
+            </a>
+         </div>
+       
+
+
          <!-- Enroll Form Column - Middle -->
          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
             <div class="enroll-form-box">
@@ -133,18 +146,7 @@
             </div>
          </div>
 
-         @if($offlineCategory)
-         <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-            <a href="{{ route('courses') }}#offline-course" class="text-decoration-none">
-               <div class="enroll-image-box position-relative">
-                  <img class="w-100 hvr-bounce-in" src="{{ uploaded_asset($offlineCategory->image) }}" alt="{{ $offlineCategory->name }}">
-                  <div class="image-label">
-                     <span class="robot_slab">{{ $offlineCategory->name }}</span>
-                  </div>
-               </div>
-            </a>
-         </div>
-         @endif
+         
          
 
          
