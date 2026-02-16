@@ -3,7 +3,7 @@
 <head> 
     @include('frontend.partials.meta')
     @include('frontend.partials.styles')
-    <script src="{{ asset('assets/frontend/js/content-protect.js') }}" defer></script>
+    <!-- <script src="{{ asset('assets/frontend/js/content-protect.js') }}" defer></script> -->
 </head>
 <body>
 

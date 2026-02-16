@@ -477,10 +477,10 @@ footer.footer a:hover {
     font-style: italic;  
 }
 .w-150 {
-     width: 144px;
+    width: 192px;
     position: relative;
-    top: -40px;
-    left: 25px;
+    top: -2px;
+    left: -2px;
 }
 footer.footer a{
     font-size: 16px;
@@ -2958,7 +2958,7 @@ body .course-bullet {
 }
 
 .enroll-image-box img {
-    height: 510px;
+    height: 450px;
     object-fit: cover;
     border-radius: 15px;
     width: 100%;

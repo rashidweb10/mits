@@ -2,7 +2,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
 
 <!-- Local Stylesheets -->
-<link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}?v=1.3.3">
+<link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}?v=1.3.5">
 <link rel="stylesheet" href="{{ asset('assets/frontend/css/responsive.css') }}?v=1.2.3">
 <link rel="stylesheet" href="{{ asset('assets/frontend/css/bootstrap.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/frontend/css/owl.carousel.min.css') }}">

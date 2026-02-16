@@ -21,7 +21,7 @@
                         <i class="fa-solid fa-map"></i>
                      </div>
                      <div>
-                        <h5 class="fw-semibold mb-1">MarinArch – Online Coaching Classes</h5>
+                        <h5 class="fw-semibold mb-1">MITS  – Online Coaching Classes</h5>
                         <p class="mb-0 "><strong>Address:</strong> {!! get_setting('address') !!}
                         </p>
                      </div>
