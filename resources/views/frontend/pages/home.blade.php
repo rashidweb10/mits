@@ -264,10 +264,10 @@
    <div class="container">
       <div class="row justify-content-center">
          <div class="col-md-12">
-            <!--<iframe width="100%" height="345" src="{{ $video }}" title="Royal Caribbean Odyssey of the Seas | Full Walkthrough Ship Tour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
-            <video controls style="width:100%;">
+            <iframe width="100%" height="345" src="{{ $video }}" title="Royal Caribbean Odyssey of the Seas | Full Walkthrough Ship Tour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            {{-- <video controls style="width:100%;">
     <source src="/assets/frontend/img/marine_video.mp4" type="video/mp4">
-  </video>
+  </video> --}}
             </div>
          <div class="col-md-5">
             <div class="owl-carousel achievements">
