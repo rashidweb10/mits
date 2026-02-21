@@ -2,7 +2,7 @@
     $banner_images = $pageData->meta->where('meta_key', 'banner_images')->first()->meta_value ?? '';
 @endphp
 
-<div class="row">
+<div class="row d-none">
     <div class="col-md-12">
         <hr>
         <h4 class="text-primary">Breadcrumb Section</h4>

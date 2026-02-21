@@ -3,7 +3,7 @@
     $testimonial_images = $pageData->meta->where('meta_key', 'testimonial_images')->first()->meta_value ?? '';
 @endphp
 
-<div class="row">
+<div class="row d-none">
     <div class="col-md-12">
         <hr>
         <h4 class="text-primary">Breadcrumb Section</h4>

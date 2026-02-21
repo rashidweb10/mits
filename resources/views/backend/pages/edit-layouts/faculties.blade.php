@@ -9,7 +9,7 @@ $faculty = json_decode($pageData->meta->where('meta_key', 'faculty')->first()->m
 
 @endphp
 
-<div class="row">
+<div class="row d-none">
     <div class="col-md-12">
         <hr>
         <h4 class="text-primary">Breadcrumb Section</h4>

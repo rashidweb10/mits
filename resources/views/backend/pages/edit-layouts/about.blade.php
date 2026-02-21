@@ -12,7 +12,7 @@ $home_quicklinks = json_decode($pageData->meta->where('meta_key', 'home_quicklin
 
 @endphp
 
-<div class="row">
+<div class="row d-none">
     <div class="col-md-12">
         <hr>
         <h4 class="text-primary">Breadcrumb Section</h4>
@@ -25,7 +25,7 @@ $home_quicklinks = json_decode($pageData->meta->where('meta_key', 'home_quicklin
                     <div class="input-group-text bg-soft-secondary font-weight-medium">{{ __('Browse') }}</div>
                 </div>
                 <div class="form-control file-amount">{{ __('Choose File') }}</div>
-                <input value="{{$banner_images}}" type="hidden" name="meta[banner_images]" class="selected-files" required>
+                <input value="{{$banner_images}}" type="hidden" name="meta[banner_images]" class="selected-files">
             </div>
             <div class="file-preview box sm"></div>
         </div>
